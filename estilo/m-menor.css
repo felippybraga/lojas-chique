@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@media (max-width: 1225px) and (min-width: 800px) {
+
+    :root {
+        --pricipal: #e5d2b2;
+        --secundario: #EE6C4D;
+        --terciario: #33312E; 
+    }
+
+    * {
+        margin: auto;
+    }
+
+    header {
+        background-image: url(../imagens/head-m.png);
+        width: auto;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    aside#promocao {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    div#cabecalho {
+        padding-right: 550px;
+    }
+
+    main {
+        width: auto;
+    }
+
+    #comprimido {
+        height: auto;
+    }
+
+    img.album {
+        height: 140px;
+        margin-bottom: 115px;
+    }
+
+    .album {
+        transition: transform 0.8s ease-in-out;
+      }
+      
+    .album.animado {
+        border: 2px solid var(--secundario);
+        box-shadow: rgba(0, 0, 0, 0.24) 8px 8px 8px;
+        height: 200px;
+        transform: rotate(0deg);
+        margin: 50px 78px 167px -80px;
+    }
+
+
+    aside#reniciar {
+        right: 165px;
+        top: 170px;
+    }
+
+    section#album{
+        padding-top: 50px;
+        
+    }
+
+    section#album p {
+        margin: -23px -65px;
+    }
+
+    section#emocional img {
+        margin: -18px -135px;
+        z-index: 1000px;
+        position: relative;
+    }
+
+    section#emocional p {
+        margin: -40px 5px;
+    }
+
+    section#logico p {
+        z-index: 1000px;
+        position: relative;
+    }
+
+    section#logico img{
+        margin: -152px;
+        margin-left: 147px;
+    }
+
+    section#racional p{
+        margin: -1061px 0px 0px -131px;
+        
+        height: 360px;
+
+    }
+
+    section#racional img {
+        margin: 740px 0px 0px -193px;
+        z-index: 1000px;
+        position: relative;
+    }
+
+    section#faq {
+        width: 500px;
+    }
+
+    footer {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 1230px) and (min-width: 900px) {
+    aside#reniciar {
+        right: 380px;
+        top: 180px;
+    }
+}
+@media (max-width: 1070px) and (min-width: 800px) {
+    aside#reniciar {
+        right: 120px;
+        top: 180px;
+    }
+}
