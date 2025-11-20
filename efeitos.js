@@ -1,7 +1,7 @@
 AOS.init();
 
 const frases = [
-    "Estilo e Elegância para Todos os Momentos",
+    'Estilo e Elegância para Todos os Momentos',
     "Mais do que vestir, é se encontrar",
     "Elegância que abraça o seu jeito de ser",
 ]

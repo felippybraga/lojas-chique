@@ -66,6 +66,33 @@ p#slogan {
 
 }
 
+#setaBaixo {
+    color: rgba(255, 255, 255, 0.712);
+    margin-top: 250px;
+    font-size: 2em;
+
+    /* Necessário para a animação */
+    display: inline-block;
+    animation: descer 1.8s infinite ease-in-out;
+}
+
+/* Animação */
+@keyframes descer {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(10px);
+        opacity: 0.6;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
 main {
     background-image: linear-gradient(to top , var(--secundario), var(--pricipal));
     height: auto;
